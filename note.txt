@@ -1,0 +1,35 @@
+
+fakta javascript
+dia hanya single theard (mengeksekusi program 1 per satu)
+
+
+ada cara lain untuk menghindari callback function menggunakan 'Promise'
+= object yang di janjikan asynchronous
+
+promies = adalah suatu object dari hasil suatu function yang kita jalankan 
+    memiliki kondisi apakah proses berhasil di jalankan atau error
+    respon tersebut bisa kita gunakan
+
+
+
+ promise sendiri artinya adalah sebuah janji.
+Logika cara kerja promise sama seperti diri kita membuat janji dengan seseorang. 
+
+sedangkan if else merupakan pilihan alternatif dari penyelesian yang digunakan untuk mencari kondisi yang diinginkan.
+
+ mendefinisikan resolve() gunanya untuk mengindikasikan bahwa promise telah dipenuhi dengan sukses.
+Sedangkan untuk reject() menandakan promise ditolak atau gagal.
+ Disini menggunkan resolve() karena pada promise yang dibuat berhasil dipenuhi. 
+ Sebaliknya contoh jika ada kondisi tidak terpenuhi maka kita mengambalikan reject().
+
+
+ asynchronous =
+ 1 . async
+ 2. await
+
+
+ perbedaan antara statement return dan throw adalah statement return mengembalikan sebuah nilai 
+ sedangkan throw menandakan adanya exception atau error. 
+ Perilaku keduanya sedikit mirip namun berbeda, 
+ untuk return dianggap berhasil atau tidak ada error 
+ sedangkan throw dianggap sebagai adanya error
